@@ -1,0 +1,8 @@
+<section id="m-sec">
+  <div class="home">
+       <div class="img">
+        <img *ngFor="let D of Data" class="photo" routerLink="/table/{{D.id}}" [src]="D.flickr_images[0]
+        " alt="">
+       </div>
+  </div>
+</section>

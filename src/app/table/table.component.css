@@ -1,0 +1,50 @@
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0px;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgb(0, 0, 0, 0.15);
+}
+#m-sec {
+  background-image: url(../../assets/img/blob-scene-haikei.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100vh;
+  margin: 0;
+}
+.ff {
+  background-color: #fff;
+}
+.content-table thead tr {
+  background-color: #2a075d;
+  color: #fff;
+  text-align: left;
+  
+}
+.content-table th,
+.content-table td {
+  padding: 12px 15px;
+}
+.content-table tbody tr {
+  border-bottom: 1px solid #dddddddd;
+}
+.content-table tbody tr:nth-last-of-type(even) {
+  background-color: #f3f3f3;
+}
+.content-table tbody tr:nth-last-of-type {
+  border-bottom: 2px solid #099890;
+}
+td {
+  padding: 0;
+}
+.tb-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+.up {
+  text-transform: uppercase;
+}
